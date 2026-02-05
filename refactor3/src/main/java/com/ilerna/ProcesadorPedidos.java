@@ -1,6 +1,8 @@
 package com.ilerna;
 
-import java.util.*;
+import java.util.logging.Logger;
+import java.util.logging.Level;
+import java.util.List;
 
 /**
  * Código inicial para la práctica de refactorización.
