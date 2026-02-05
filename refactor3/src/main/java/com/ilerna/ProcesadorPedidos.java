@@ -24,7 +24,9 @@ public class ProcesadorPedidos {
 
         // Sumar precios de la lista
         for (int i = 0; i < precios.size(); i++) {
-            LOGGER.info("Añadiendo producto: " + listaNombres.get(i));
+            if (LOGGER.isLoggable(Level.INFO)) {
+                LOGGER.log(Level.INFO, "Añadiendo producto: {0}", listaNombres.get(i));
+            }
             t = t + precios.get(i);
         }
 
