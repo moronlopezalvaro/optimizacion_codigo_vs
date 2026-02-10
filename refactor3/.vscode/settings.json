@@ -1,3 +1,4 @@
 {
-    "java.configuration.updateBuildConfiguration": "interactive"
+    "gitflow.disableOnRepo": true,
+    "java.configuration.updateBuildConfiguration": "automatic"
 }
